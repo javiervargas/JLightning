@@ -1,5 +1,5 @@
 # LightningJava
-Set of Java classes in development to connect to a c-lightning node. Use JLightning Library created by Rene Pickhardt. 
+Set of Java classes in development to connect to a c-lightning node. Use <a href="https://github.com/ElementsProject/lightning/pull/2223">JLightning</a> Library created by Rene Pickhardt. 
 
 All the credits for Rene. The supported version of c-lightning is v0.7.0-1-g0631490. 
 

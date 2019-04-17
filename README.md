@@ -17,7 +17,7 @@ ubuntu@vmi214216:/var/www/$ java JHttp /home/ubuntu/.lightning/lightning-rpc
 Connected to c-lightning.  Listening on 8000
 </code>
 
-To establish a connection to server:
+# To establish a connection to server:
 
 <code>
 ubuntu@vmi214216:/var/www$ curl -XPOST http://localhost:8000/lightning?query=getinfo

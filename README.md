@@ -13,16 +13,11 @@ JLightning uses <a href="https://github.com/kohlschutter/junixsocket">Junixsocke
 {
   "num_inactive_channels": 0,
   "address": [{
-    "address": "80.241.209.102",
-    "port": 9736,
+    "address": "192.168.0.157",
+    "port": 9735,
     "type": "ipv4"
   }],
   "color": "028306",
-  "binding": [{
-    "address": "80.241.209.102",
-    "port": 9736,
-    "type": "ipv4"
-  }],
   "fees_collected_msat": "636msat",
   "version": "v0.7.0-1-g0631490",
   "blockheight": 572019,

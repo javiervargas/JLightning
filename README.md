@@ -14,7 +14,8 @@ Creates an http server that exposes certain methods accessible by any client suc
 
 <code>
 ubuntu@vmi214216:/var/www/$ java JHttp /home/ubuntu/.lightning/lightning-rpc
-Connected to c-lightning.  Listening on 8000
+Connected to c-lightning.  
+Listening on 8000
 </code>
 
 # To establish a connection to server:

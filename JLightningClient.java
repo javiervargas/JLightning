@@ -1,4 +1,10 @@
-/* Copyright Javier Vargas 2019  */
+/* Copyright 2019  
+ * The Author of this Java Client is Javier Vargas. 
+ * The JLightning library is created by Rene Pickhardt
+ * licensed with a BSD-style license. 
+ * @author Javiervargas
+ */
+
 
 
 public class JLightningClient {

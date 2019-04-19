@@ -12,15 +12,15 @@ JLightning uses <a href="https://github.com/kohlschutter/junixsocket">Junixsocke
 
 Creates an http server that exposes certain methods accessible by any client such as CURL and receives as a parameter the path to the rpc file of c-lightning
 
-<code>
+<pre><code>
 ubuntu@vmi214216:/var/www/$ java JHttp /home/ubuntu/.lightning/lightning-rpc
 Connected to c-lightning.  
 Listening on 8000
-</code>
+</code></pre>
 
 # To establish a connection to server:
 
-<code>
+<pre><code>
 ubuntu@vmi214216:/var/www$ curl -XPOST http://localhost:8000/lightning?query=getinfo
 {
   "num_inactive_channels": 0,
@@ -41,7 +41,7 @@ ubuntu@vmi214216:/var/www$ curl -XPOST http://localhost:8000/lightning?query=get
   "alias": "mainnet.clobig.com",
   "id": "0283065d6d5b1fbeaa1f21e62755b4b834c4fabd2765d9522f5a79ec216fec3013"
 }ubuntu@vmi214216:/var/www/twitter$ 
-</code>
+</code></pre>
 
 # TODO
 To expose on the internet use nginx with basic authetication

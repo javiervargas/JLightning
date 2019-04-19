@@ -1,5 +1,9 @@
-/* Copyright Javier Vargas 2019 */
-/* JLightning it's created by Rene */
+/* Copyright 2019  
+ * The Author of this Java Client is Javier Vargas. 
+ * The JLightning library is created by Rene Pickhardt
+ * licensed with a BSD-style license. 
+ * @author Javiervargas
+ */
 
 import java.math.BigDecimal;
 import java.text.DecimalFormat;

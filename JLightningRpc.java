@@ -199,7 +199,7 @@ public class JLightningRpc extends UnixDomainSocketRpc {
         }
 	
 	 public String listForwards(){
-                return this.call("listforwards", payload);
+                return this.call("listforwards", null);
         }
 
 

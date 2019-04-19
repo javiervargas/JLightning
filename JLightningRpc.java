@@ -197,6 +197,11 @@ public class JLightningRpc extends UnixDomainSocketRpc {
                 payload.put("id", node_id);
                 return this.call("listpeers", payload);
         }
+	
+	 public String listForwards(){
+                return this.call("listforwards", payload);
+        }
+
 
 
 

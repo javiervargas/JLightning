@@ -175,6 +175,29 @@ public class JLightningRpc extends UnixDomainSocketRpc {
                 payload.put("maxepirytime", Integer.toString(maxexpirytime));
                 return this.call("delexpiredinvoice", payload);
         }
+	
+	  /**
+        * List all configuration options, or with [config], just that one
+        * @param config
+        */
+
+        public String listConfigs(String config){
+                HashMap<String, String> payload = new HashMap<String,String> ();
+                payload.put("config", config);
+                return this.call("listconfigs", payload);
+        }
+
+         /**
+        * Show current peers, if {level} is set, include logs for {id}
+        * @param config
+        */
+
+        public String listPeers(String node_id,String level){
+                HashMap<String, String> payload = new HashMap<String,String> ();
+                payload.put("id", node_id);
+                return this.call("listpeers", payload);
+        }
+
 
 
 }

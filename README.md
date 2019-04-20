@@ -40,7 +40,8 @@ ubuntu@vmi214216:/var/www$ curl -XPOST http://localhost:8000/lightning?query=get
   "num_active_channels": 23,
   "alias": "mainnet.clobig.com",
   "id": "0283065d6d5b1fbeaa1f21e62755b4b834c4fabd2765d9522f5a79ec216fec3013"
-}ubuntu@vmi214216:/var/www/twitter$ 
+}
+ubuntu@vmi214216:/var/www/$ 
 </code></pre>
 
 # TODO

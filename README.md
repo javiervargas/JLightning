@@ -1,4 +1,4 @@
-# LightningJava
+# JLightning Client
 Set of Java classes in development to connect to a c-lightning node. Use <a href="https://github.com/ElementsProject/lightning/pull/2223">JLightning</a> Library created by Rene Pickhardt. 
 
 All the credits for Rene. The supported version of c-lightning is v0.7.0-1-g0631490. 
@@ -8,7 +8,7 @@ The project can be run as a standalone application or as a simplified interface 
 # Dependencies
 JLightning uses <a href="https://github.com/kohlschutter/junixsocket">Junixsocket</a>. A Java/JNI library that allows the use of Unix Domain Sockets (AF_UNIX sockets) from Java.
 
-# Using Lightning Java
+# Using JLightning Client
 
 Creates an http server that exposes certain methods accessible by any client such as CURL and receives as a parameter the path to the rpc file of c-lightning
 

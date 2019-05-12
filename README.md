@@ -45,7 +45,7 @@ ubuntu@vmi214216:/var/www/$
 </code></pre>
 
 # TODO
-To expose on the internet use nginx with basic authetication
+Do not expose on the internet use nginx with basic authetication
 
 
 Tips: 1DQko54WtKRr4jHj1mKK1upKPhTUfh949q

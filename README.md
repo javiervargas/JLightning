@@ -48,5 +48,5 @@ ubuntu@vmi214216:/var/www/$
 Do not expose on the internet use nginx with basic authetication
 
 
-Tips: 1DQko54WtKRr4jHj1mKK1upKPhTUfh949q
+Tips: 1A6nWyJYS4Sx5m6jAYbUvVKEwVwPQ6YZRz
 
